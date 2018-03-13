@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.btn{
+	border: none;
+	outline: none;
+	padding: 20px 30px;
+	background-color: transparent;
+	border-radius: 3px;
+	cursor: pointer;
+	font-family: verdana;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+}
+
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger,
+.btn-default{
+	border-width: 2px;
+	border-style: solid;
+}
+
+.btn-success{
+	border-color: #4caf50;
+	color: #4caf50;
+}
+
+.btn:hover{
+	color: #fff;
+}
+
+.btn-success:hover{
+	background-color: #4caf50;
+}
+
+.btn-info{
+	border-color: #2196f3;
+	color: #2196f3;
+}
+
+.btn-info:hover{
+	background-color: #2196f3;
+}
+
+.btn-warning{
+	border-color: #ff9800;
+	color: #ff9800;
+}
+
+.btn-warning:hover{
+	background-color: #ff9800;
+}	
+
+.btn-danger{
+	border-color: #f44336;
+	color: #f44336;
+}
+
+.btn-danger:hover{
+	background-color: #f44336;
+}
+
+.btn-default{
+	border-color: #e7e7e7;
+	color: #e7e7e7;
+}
+
+.btn-default:hover{
+	background-color: #e7e7e7;
+	color: #000;
+}
